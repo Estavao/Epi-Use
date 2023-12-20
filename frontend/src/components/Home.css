@@ -1,0 +1,146 @@
+/* Reset some default styles */
+.container {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    height: 1210px; /* 100% of the viewport height */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-position: center; /* Center the image within the container */
+    position: relative; /* Ensure child elements are positioned relative to this container */
+    background-image: url("/public/name.jpg");
+  }
+  
+  body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: white !important; /* Set default text color */
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  section {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  h2 {
+    color: #f4eaea !important;
+  }
+  
+  .requirements h3,
+  .solution h2 {
+    color: #f1efef !important;
+  }
+  
+  .requirements ul {
+    list-style-type: square;
+    margin-left: 20px;
+  }
+  
+  /* Media query for responsiveness (adjust as needed) */
+  @media (max-width: 600px) {
+    section {
+      padding: 15px;
+    }
+  }
+  
+  h2, h3 {
+    color: white !important; /* Set heading text color */
+  }
+  
+  p, ul {
+    color: white !important; /* Set paragraph and list text color */
+    font-size: 24px;
+  }
+  .images {
+    display: flex;
+    align-items: center;
+  }
+  
+  .ele3 {
+    width: 250px; /* Adjust the width as needed */
+   
+   border-radius: 30px;
+   height: 240px;
+    margin-right: 10px; /* Add some spacing between images if desired */
+  }
+  .ele1{ width: 200px; /* Adjust the width as needed */
+   
+    border-radius: 30px;
+    height: 240px;
+     margin-right: 10px; /* Add some spacing between images if desired */
+}
+.eleu{ width: 300px; /* Adjust the width as needed */
+   
+    border-radius: 30px;
+     height: 240px;
+     margin-right: 10px; /* Add some spacing between images if desired */
+}
+.CSP{ width: 300px; /* Adjust the width as needed */
+   
+    border-radius: 30px;
+     height: 240px;
+     margin-right: 10px; /* Add some spacing between images if desired */
+}
+.use{
+    width: 300px; /* Adjust the width as needed */
+   
+    border-radius: 30px;
+     height: 240px;
+     margin-right: 10px; /* Add some spacing between images if desired */
+}
+.images img:hover {
+    transform: scale(1.1); /* Increase the scale on hover */
+  }
+  section {
+    background-color: rgba(23, 11, 49, 0.8); /* Grayish-blue color with opacity */
+    padding: 20px; /* Add padding to the sections */
+    border-radius: 8px; /* Add rounded corners to the sections */
+    margin: 20px 0; /* Add margin to space out the sections */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+  }
+  .images {
+    display: flex;
+    align-items: center;
+    overflow-x: auto; /* Allow horizontal scrolling if needed */
+  }
+  
+  
+  /* Media query for responsiveness */
+  @media (max-width: 600px) {
+    .images {
+      flex-direction: column;
+      align-items: center;
+      overflow-x: hidden; /* Hide horizontal scrollbar on small screens */
+    }
+  
+    .ele1,
+    .CSP,
+    .ele3,
+    .eleu,
+    .use {
+      width: 100%; /* Make images take full width of the container */
+      max-width: none; /* Remove max-width to allow full width */
+      margin-bottom: 10px;
+    }
+  }
+  .w{color: white;}

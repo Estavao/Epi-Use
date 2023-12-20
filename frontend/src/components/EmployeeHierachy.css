@@ -1,0 +1,129 @@
+/* General styles */
+.auth-wrapper {
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  height: 220vh; /* Adjust the height as needed */
+  background-size: 200%;
+  background-position: center;
+  background-repeat: repeat-x;
+  position: relative;
+  background-image: url("/public/name.jpg");
+}
+
+.auth-inner {
+  width: 80%;
+  color: white; /* Set text color to white */
+}
+
+/* Header styles */
+h1, h2 {
+  text-align: center;
+  color: black;
+}
+
+/* Error message styles */
+div.error-message {
+  color: black;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+thead {
+  background-color: #f2f2f2;
+}
+
+th {
+  position: sticky;
+  top: 0;
+  background-color: #f2f2f2;
+}
+
+.actions-th {
+  text-align: center;
+}
+
+.actions-button {
+  margin-right: 5px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Employee table styles */
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: rgba(41, 5, 41, 0.832); /* Dark purple with 80% opacity */
+}
+
+.employee-table th, .employee-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  color: white; /* Set text color to white */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .auth-inner {
+    width: 90%; /* Adjust as needed */
+  }
+
+  .employee-table th, .employee-table td {
+    padding: 6px;
+  }
+}
+
+/* Search bar styles */
+.search-section {
+  display: flex;
+  align-items: center;
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+label[for="search"] {
+  margin-right: 10px;
+}
+
+/* Tree component styles */
+.tree-container {
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+table th {
+  color: black;
+}
+
+/* Table content styles */
+
+
+/* Employee table styles */
+.employee-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  color: black; /* Set text color to black */
+  
+}
+.employee-table td{
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left};

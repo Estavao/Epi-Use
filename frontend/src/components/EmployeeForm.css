@@ -1,0 +1,127 @@
+/* Add Employee form styling */
+.container {
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  height: 1220px; /* 100% of the viewport height */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative; /* Ensure child elements are positioned relative to this container */
+  background-image: url("/public/name.jpg");
+}
+
+.addDel {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  input,
+  .react-datepicker-wrapper,
+  .react-datepicker__input-container {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px; /* Adjusted margin */
+    box-sizing: border-box;
+    border-radius: 8px; /* Add border-radius for round edges */
+    font-size: 18px; /* Adjusted font size */
+  }
+
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #45a049;
+    }
+  }
+}
+
+/* Profile Photo styling */
+img,
+.react-gravatar {
+  display: block;
+  margin: 10px auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Add/Edit Employee form container styling */
+.form-container {
+  max-width: 400px;
+  margin: 20px auto; /* Add margin to the top and bottom */
+  background-color: #0f0b4bf7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  opacity: 0.9;
+  font-size: 20px;
+  color: rgb(250, 249, 252);
+}
+
+/* Add space to the top of the navbar */
+.navbar {
+  margin-bottom: 20px; /* Add margin to the bottom */
+  /* Your other navbar styles go here */
+}
+
+.react-datepicker {
+  font-size: 16px;
+}
+
+.react-datepicker__header {
+  background-color: #4caf50;
+  color: white;
+}
+
+.react-datepicker__day-names {
+  display: flex;
+  justify-content: space-around;
+}
+
+.react-datepicker__day {
+  width: 30px;
+  line-height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.react-datepicker__day:hover {
+  background-color: #45a049;
+}
+
+/* Additional styles for date input */
+input,
+.react-datepicker-wrapper,
+.react-datepicker__input-container {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px; /* Adjusted margin */
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-size: 18px; /* Adjusted font size */
+  margin-right: 11px;
+  margin-left: 0; /* Filled in the missing value */
+}
+/* File name display */
+.file-name {
+  display: block;
+  margin: 10px auto;
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: #4caf50; /* Add color for visibility */
+}
+
+/* Profile Photo styling */
